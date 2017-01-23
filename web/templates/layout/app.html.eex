@@ -16,9 +16,7 @@
   <body>
     <nav class="light-blue">
       <div class="nav-wrapper container">
-        <a href="/" class="brand-logo">
-          Discussions
-        </a>
+        <%= link "Discussions", to: topic_path(@conn, :index), class: "brand-logo" %>
       </div>
     </nav>
 
